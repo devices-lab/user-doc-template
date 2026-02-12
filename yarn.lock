@@ -44,6 +44,13 @@
   dependencies:
     dependency-graph "^1.0.0"
 
+"@11ty/eleventy-plugin-bundle@^1.0.0":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@11ty/eleventy-plugin-bundle/-/eleventy-plugin-bundle-1.0.5.tgz#8056fef6139e5eeb0259a2b2928dda5f85e4e8f1"
+  integrity sha512-Esv97j+mOo/yfxjaWl4j8CyszOBsRjU/DOUWOBqVnnDLM8VDXeus2LTJUxF70nAU0g+z+b6fRn8fKnm6b2a/UQ==
+  dependencies:
+    debug "^4.3.4"
+
 "@11ty/eleventy-plugin-bundle@^3.0.6":
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/@11ty/eleventy-plugin-bundle/-/eleventy-plugin-bundle-3.0.7.tgz#1ec9b950659ed252b4416c5552bf029cc5c31f95"
@@ -135,15 +142,14 @@
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
 "@devices-lab/user-doc-base@https://github.com/devices-lab/user-doc-base.git#main":
-  version "1.0.0"
-  resolved "https://github.com/devices-lab/user-doc-base.git#f4e9aff54fdb090a26d88405b4df894c8b555617"
+  version "0.0.0"
+  resolved "https://github.com/devices-lab/user-doc-base.git#605945310faa61994305bac14d390a6c92bdf493"
   dependencies:
-    "@11ty/eleventy" "^3.1.2"
     "@11ty/eleventy-navigation" "^1.0.5"
+    "@11ty/eleventy-plugin-bundle" "^1.0.0"
     "@11ty/eleventy-plugin-syntaxhighlight" "^5.0.2"
     eleventy-plugin-toc "^1.1.5"
     glob "^13.0.1"
-    markdown-it-anchor "^9.2.0"
     markdown-it-container "^4.0.0"
     markdown-it-emoji "^3.0.0"
 
@@ -494,7 +500,7 @@ debug@2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^4.4.0, debug@^4.4.1, debug@^4.4.3:
+debug@^4.3.4, debug@^4.4.0, debug@^4.4.1, debug@^4.4.3:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.4.3.tgz#c6ae432d9bd9662582fce08709b038c58e9e3d6a"
   integrity sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==
