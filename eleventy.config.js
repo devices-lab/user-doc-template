@@ -3,7 +3,7 @@ import file from "node:fs";
 
 export default async function (eleventyConfig, options = {}) {
   // Register user-doc-base plugin with this project's input dir
-  await userDocBase(eleventyConfig, { inputDir: "src", syncChanges: true });
+  await userDocBase(eleventyConfig, { inputDir: "src", syncChanges: false });
 
   eleventyConfig.addPassthroughCopy("**/*.png");
   eleventyConfig.addPassthroughCopy("**/*.jpg");

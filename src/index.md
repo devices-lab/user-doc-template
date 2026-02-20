@@ -1,6 +1,6 @@
 ---
 layout: "devices-lab/default"
-image: img/pexels-abdellah-benziane-2153835967-36053909.jpg
+image: https://placecats.com/400/400/
 ---
 
 # Overview
@@ -13,11 +13,11 @@ We use the excellent [eleventy (11ty)](https://www.11ty.dev/) to build the stati
 
 ## Writing Documentation
 
-Ensure you have both `node` (nodejs) and `yarn` installed.
+Ensure you have both `node` (nodejs) and `npm` installed.
 
-To run the development server, which live updates your pages and serves a local development host, launch `yarn run dev:11ty`.
+To run the development server, which live updates your pages and serves a local development host, launch `npm run dev:11ty`.
 
-Alternatively, to run a single one-shot build, run `yarn run build`.
+Alternatively, to run a single one-shot build, run `npm run build`.
 
 In both cases, the complete output will be available in the `_site/` subdirectory.
 
