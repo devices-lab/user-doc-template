@@ -1,7 +1,7 @@
 {
   "name": "user-doc-template",
   "version": "1.0.0",
-  "description": "A template repository for user-facing documentation of hardware",
+  "description": "This is the official template repository to generate documentation in the devices-lab style.",
   "main": "eleventy.config.js",
   "repository": "https://github.com/devices-lab/user-doc-template.git",
   "author": "Dr John Vidler <j.vidler@lancaster.ac.uk>",

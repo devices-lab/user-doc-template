@@ -1,4 +1,5 @@
 import userDocBase from "@devices-lab/user-doc-base";
+import file from "node:fs";
 
 export default async function (eleventyConfig, options = {}) {
   // Register user-doc-base plugin with this project's input dir

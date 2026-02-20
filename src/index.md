@@ -1,9 +1,6 @@
 ---
 layout: "devices-lab/default"
-title: The title of this page
 image: img/pexels-abdellah-benziane-2153835967-36053909.jpg
-description: >
-    This is the official template repository to generate documentation in the devices-lab style.
 ---
 
 # Overview
